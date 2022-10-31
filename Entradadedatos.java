@@ -8,16 +8,20 @@ public class Entradadedatos {
         // Scanner + la variable + el siguiente parametro
         int valor;
         double valor1;
-        String valor2;
+        String valor2, valor3;
+        System.out.println("Ingrese un nombre: ");
+        valor2 = teclado.nextLine();
+        System.out.println("Valor guardado: " + valor2);
+        System.out.println("Ingrese una oracion: ");
+        valor3 = teclado.nextLine();
+        System.out.println("Valor guardado: " + valor3);
         System.out.println("Digite el numero a almacenar: ");
         valor = teclado.nextInt();
         System.out.println("Valor guardado: " + valor);
         System.out.println("Digite el numero decimal para almacenar: ");
         valor1 = teclado.nextDouble();
         System.out.println("Valor guardado: " + valor1);
-        System.out.println("Ingrese un nombre: ");
-        valor2 = teclado.next();
-        System.out.println("Valor guardado: " + valor2);
+
         /*
          * de momento aparece las advertencias
          * una del teclado que no a sido cerrado
