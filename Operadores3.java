@@ -4,6 +4,9 @@ public class Operadores3 {
     /*
      * Uso de la clase Math
      * Sacar raices
+     * Potencias o elevar numero a una potencia
+     * redondear numeros
+     * Obtener numeros aleatorios
      */
     public static void main(String[] args) {
         int saberraiz = 9;
@@ -28,10 +31,27 @@ public class Operadores3 {
                 "El siguiente proceso muestra la raiz del numero en la variable saberraiz: " + iraiz);
         JOptionPane.showMessageDialog(null, "Siguiente metodo sirve para elevar un numero con una base");
         double base = 3, exponente = 4;
-        JOptionPane.showMessageDialog(null, "Valor de la base" + base);
+        JOptionPane.showMessageDialog(null, "Valor de la base: " + base);
         // Math.pow(base + el exponente) en variables o parametros double
-        JOptionPane.showMessageDialog(null, "Valor del exponente" + exponente);
+        JOptionPane.showMessageDialog(null, "Valor del exponente: " + exponente);
         double BmasE = Math.pow(base, exponente);
-        JOptionPane.showMessageDialog(null, "Valor elevado" + BmasE);// 81.0
+        JOptionPane.showMessageDialog(null, "Valor elevado: " + BmasE);// 81.0
+        // redondear numeros double a enteros usando(math.round) variables long
+        double redondear = 5.56;
+        JOptionPane.showMessageDialog(null, "Siguiente metodo sirve para Redondear un numero");
+        JOptionPane.showMessageDialog(null, "Valor en redondear: " + redondear);
+        Long Fredondeado = Math.round(redondear);
+        JOptionPane.showMessageDialog(null, "Numero redondeado: " + Fredondeado);
+        // Como se vio anteriormente ofrece dos versiones la double a long y la float a
+        // int
+        Float redonFloat = 7.56f;// cuando es un float recuerda escribir f al final del numero
+        JOptionPane.showMessageDialog(null, "Siguiente metodo sirve para Redondear un numero");
+        JOptionPane.showMessageDialog(null, "Valor en redonFloat: " + redonFloat);
+        int Fredondeado1 = Math.round(redonFloat);
+        // paso a ser un entero
+        JOptionPane.showMessageDialog(null, "Numero redondeado: " + Fredondeado1);
+        JOptionPane.showMessageDialog(null, "Siguiente metodo sirve para Obtener un numero Aleatorio");
+        double numaleatorio = Math.random();
+        JOptionPane.showMessageDialog(null, "Numero Aleatorio: " + numaleatorio);
     }
 }
