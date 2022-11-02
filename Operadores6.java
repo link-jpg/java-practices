@@ -14,5 +14,7 @@ public class Operadores6 {
         JOptionPane.showMessageDialog(null, "Dinero que tiene karla: " + Karla
                 + "\n Dinero quiene Luis: " + Luis
                 + "\n Dinero que tiene Alexander: " + Alexander, null, 1);
+        JOptionPane.showMessageDialog(null,
+                "La cantidad de Dinero que tienen todos juntos es de: " + (Karla + Luis + Alexander), null, 1);
     }
 }
