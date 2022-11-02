@@ -11,32 +11,31 @@ public class Operadores8 {
      * estudiante.
      */
     public static void main(String[] args) {
-        float Parti, P1, P2, P3;
-        int validacion;
+        float Parti, P1, P2, P3, validacion;
         try (Scanner zero = new Scanner(System.in)) {
             System.out.println("inserte su participacion en clase");
-            validacion = zero.nextInt();
+            validacion = zero.nextFloat();
             if (validacion <= 10 && validacion >= 0) {
                 System.out.println("Su nota a sido guardada correctamente");
                 Parti = validacion;
                 System.out.println("nota guardada: " + Parti);
                 validacion += 0;
                 System.out.println("inserte nota del Primer Parcial");
-                validacion = zero.nextInt();
+                validacion = zero.nextFloat();
                 if (validacion <= 10 && validacion >= 0) {
                     System.out.println("Su nota a sido guardada correctamente");
                     P1 = validacion;
                     System.out.println("nota guardada: " + P1);
                     validacion += 0;
                     System.out.println("inserte nota del Segundo Parcial");
-                    validacion = zero.nextInt();
+                    validacion = zero.nextFloat();
                     if (validacion <= 10 && validacion >= 0) {
                         System.out.println("Su nota a sido guardada correctamente");
                         P2 = validacion;
                         System.out.println("nota guardada: " + P2);
                         validacion += 0;
                         System.out.println("inserte nota del Parcial Final");
-                        validacion = zero.nextInt();
+                        validacion = zero.nextFloat();
                         if (validacion <= 10 && validacion >= 0) {
                             System.out.println("Su nota a sido guardada correctamente");
                             System.out.println("");
