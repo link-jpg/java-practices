@@ -1,3 +1,5 @@
+package PDK;
+
 import javax.swing.JOptionPane;
 
 public class condicionales1 {
