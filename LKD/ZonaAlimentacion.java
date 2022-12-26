@@ -25,7 +25,7 @@ public class ZonaAlimentacion {
                             switch (num0) {
                                 case 1:
                                     System.out.println("el coste del plato 1 es de $5.00");
-                                    System.out.println("ingrese la cantidad de platos que desea:");
+                                    System.out.println("ingrese la cantidad de platos qaue desea:");
                                     num0 = Teclado.nextInt();
                                     total = num0 * 5.00;
                                     System.out.println("el total a pagar es de $" + total);
